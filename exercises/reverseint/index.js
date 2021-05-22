@@ -8,6 +8,19 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
-function reverseInt(n) {}
+function reverseInt(n) {
+    // 1. The first thing we care about, before being pos or neg, is simply reversing the number 
+    // If we create a string representation of the number, then we know from previous exercises how to reverse its order!
+    const reversedNum = n.toString().split("").reverse().join(""); 
+    
+    // 2. When a num is positive all things are fine, when neg the - appears at the end of the string. Let's fix that.
+    // if original number n is less than 0, it's negative, and we'll lose the negative sign in the parsing process
+    // to fix that multiply the number by -1, which will make it negative 
+    if (n < 0) {
+      return parseInt(reversedNum) * -1; 
+    }
+    // otherwise return normally - no pos-to-neg conversion  
+    return parseInt(reversedNum); 
+  }
 
 module.exports = reverseInt;
