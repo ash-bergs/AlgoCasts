@@ -7,6 +7,26 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+//* Solo Attempt - brute force, gets the job done 
+// function palindrome(str) {
+//     // we just learned multiple ways to reverse a string, with reverse, a for of loop, and reduce 
+//     // to determine if a string is a palindrome we must check if it is the same forwards as backwards 
+//     const reversedStr = str.split("").reverse().join(""); 
+//     // should this be deep equality? or will that fail?
+//     // an example of a direct comparison 
+//     return reversedStr === str; 
+// }
+
+//* Using 🌈 every helper 🌈
+
+function palindrome(str) {
+    return str.split("").every((val, i) => {
+        // debugger;
+        //TODO check how this expression below is working in the debugger.
+        return val === str[str.length - i - 1]; 
+    })
+}
+
+
 
 module.exports = palindrome;
