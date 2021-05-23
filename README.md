@@ -17,3 +17,7 @@ My Notes:
 ### Challenge #3: Reverse Integer 
 
 ![reverse integer notes](https://i.ibb.co/f4S4hVK/reverse-Int-Final.png)
+
+### Challenge #4: Max Char 
+
+![max char notes](https://i.ibb.co/jgdrqMc/max-Char-Coding-Interview-Bootcamp.png)
