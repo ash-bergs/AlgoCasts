@@ -21,3 +21,7 @@ My Notes:
 ### Challenge #4: Max Char 
 
 ![max char notes](https://i.ibb.co/jgdrqMc/max-Char-Coding-Interview-Bootcamp.png)
+
+### Challenge #5: Classic FizzBuzz
+
+![fizzbuzz notes](https://i.ibb.co/ZfZZVvj/fizz-Buzz-Solution.png)
